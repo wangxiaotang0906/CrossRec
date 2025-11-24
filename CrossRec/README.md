@@ -7,7 +7,7 @@ Because scCrossRec integrates **single-cell multi-omics**, **graph representatio
 Don’t worry — we provide detailed, step-by-step instructions to help you get started quickly.
 
 ## Directory Structure
-
+```
 CrossRec/
 │
 └── original_datasets/                          # Public raw datasets in processed AnnData format
@@ -34,13 +34,13 @@ CrossRec/
 │   ├── PBMC/
 │   └── ....
 │ 
-├── README.md                                   # This file
 ├── environment.yml                             # environment file
 ├── model.py                                    # scCrossRec model
 ├── train.py                                    # Training script
 ├── regulatory_discovery_inference.py           # Inference and attention extraction for biological interpretability
 ├── regulatory_discovery_cell.ipynb             # Cell-level regulatory visualization
 └── regulatory_discovery_cell_type.ipynb        # Cell-type–level regulatory maps, and compared to TF-binding-based regulatory maps
+```
 
 ## Requirements
 scCrossRec is implemented using:
