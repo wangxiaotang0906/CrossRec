@@ -1,4 +1,4 @@
-# scCrossRec: Code Repository
+# CrossRec: Code Repository
 
 Welcome to the official code repository of **scCrossRec**.
 This repository provides complete, reproducible code for data preprocessing, graph construction, model training, and regulatory interpretation.
@@ -89,6 +89,7 @@ This script generates cell-level attention matrices and additional regulatory in
 To visualize the results:
 - Use "regulatory_discovery_cell.ipynb" for cell-level regulatory matrices
 - Use "regulatory_discovery_cell_type.ipynb" for cell-type regulatory maps
+
 
 
 
