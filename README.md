@@ -1,9 +1,9 @@
 # CrossRec: Code Repository
 
-Welcome to the official code repository of **scCrossRec**.
+Welcome to the official code repository of **CrossRec**.
 This repository provides complete, reproducible code for data preprocessing, graph construction, model training, and regulatory interpretation.
 
-Because scCrossRec integrates **single-cell multi-omics**, **graph representation learning**, and **recommendation systems**, you may confuse at first time.
+Because CrossRec integrates **single-cell multi-omics**, **graph representation learning**, and **recommendation systems**, you may confuse at first time.
 Don’t worry — we provide detailed, step-by-step instructions to help you get started quickly.
 
 ## Directory Structure
@@ -36,7 +36,7 @@ CrossRec/
 │   └── ....                                    # Generated graph dataset
 │ 
 ├── environment.yml                             # environment file
-├── model.py                                    # scCrossRec model
+├── model.py                                    # CrossRec model
 ├── train.py                                    # Training script
 ├── regulatory_discovery_inference.py           # Inference and attention extraction for biological interpretability
 ├── regulatory_discovery_cell.ipynb             # Cell-level regulatory visualization
@@ -44,7 +44,7 @@ CrossRec/
 ```
 
 ## Requirements
-scCrossRec is implemented using:
+CrossRec is implemented using:
 - **Python 3.10.15**
 - **PyTorch 2.5.1**
 - **PyTorch Geometric (PyG) 2.6.1** for graph learning components
@@ -79,7 +79,7 @@ for_discovery = False          # If for_discovery is True, only positive samples
 ```
 
 ### Step3: Training models
-Train scCrossRec using "train.py".
+Train CrossRec using "train.py".
 Ensure that the dataset loading paths are correct for your directory layout, and adjust the model hyperparameters according to your experimental needs.
 
 ### Step4: Biological interpretability
@@ -89,6 +89,7 @@ This script generates cell-level attention matrices and additional regulatory in
 To visualize the results:
 - Use "regulatory_discovery_cell.ipynb" for cell-level regulatory matrices
 - Use "regulatory_discovery_cell_type.ipynb" for cell-type regulatory maps
+
 
 
 
