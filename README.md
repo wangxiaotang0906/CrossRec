@@ -68,6 +68,9 @@ If you use custom datasets, follow our format and use scripts under "CrossRec/in
 > 
 > https://drive.google.com/file/d/1QBI1QqQ-Yz7c1C94UUvyZjfdMMIckedK/view?usp=drive_link
 
+Node features and initial edges are flexible.
+Just like testing and selecting attributes available to users and items as features in recommendation systems, more informative priors can be used in your custom datasets.
+
 ### Step2: Generate interaction graphs (graph datasets)
 Use the corresponding script "CrossRec/interaction_graph_generator/interaction_graph_generator_{dataset}.py" to generate the interaction graph datasets.
 Make sure to modify the `dataset_store_path` inside each script so that it matches your local directory structure.
